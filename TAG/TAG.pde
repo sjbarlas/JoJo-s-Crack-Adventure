@@ -20,12 +20,14 @@ void draw()
     {
       fill(random(100, 200), random(100, 200), random(100, 200));
       rect(x, y, 100, 100);
+      strokeWeight(20);
+      stroke(255);
     } // end for
   } // end for
   
   noFill();
   fill(0);
   textFont(fab, 50);
-  text("Fabulous", width/2, height/2);
+  text("Fabulous", width/4, height/2);
 } // end draw
 
