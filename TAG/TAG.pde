@@ -28,6 +28,6 @@ void draw()
   noFill();
   fill(0);
   textFont(fab, 50);
-  text("Fabulous", width/4, height/2);
+  text("JoJolous", width/4, height/2);
 } // end draw
 
