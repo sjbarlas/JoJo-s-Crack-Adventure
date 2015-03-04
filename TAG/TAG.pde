@@ -8,7 +8,7 @@ void draw()
 {
   frameRate(2);
   
-  int i = 100;
+  int i = 100; // size of tiles
   
   for(int x = 0; x < width; x += i)
   {
@@ -16,6 +16,8 @@ void draw()
     {
       fill(random(100,200), random(100,200), random(100,200));
       rect(x, y, 100, 100);
-    }
-  }
+    } // end fpr
+  } // end for
+  
+  
 }
