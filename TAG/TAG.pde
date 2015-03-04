@@ -7,17 +7,18 @@ void setup()
 void draw()
 {
   frameRate(2);
-  
+
   int i = 100; // size of tiles
-  
-  for(int x = 0; x < width; x += i)
+
+  clicks();
+
+  for (int x = 0; x < width; x += i)
   {
-    for(int y = 0; y < height; y += i)
+    for (int y = 0; y < height; y += i)
     {
-      fill(random(100,200), random(100,200), random(100,200));
+      fill(random(100, 200), random(100, 200), random(100, 200));
       rect(x, y, 100, 100);
     } // end fpr
   } // end for
-  
-  
-}
+} // end draw
+
