@@ -26,8 +26,8 @@ void draw()
   } // end for
   
   noFill();
-  fill(0);
+  fill(255, 255, 0);
   textFont(fab, 50);
-  text("JoJolous", width/4, height/2);
+  text("JoJolous", width/4, height/1.9);
 } // end draw
 
