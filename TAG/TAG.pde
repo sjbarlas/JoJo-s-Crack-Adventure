@@ -26,7 +26,6 @@ void draw()
     } // end for
   } // end for
   
-  noFill();
   fill(255, 255, 0);
   textFont(jojo, 50);
   text("JoJolous", width/4.7, height/1.8);
