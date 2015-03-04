@@ -1,7 +1,11 @@
+PFont fab;
+
 void setup()
 {
   size(300, 300);
   background(0);
+  
+  fab = loadFont("BuxtonSketch-50.vlw");
 }
 
 void draw()
@@ -10,15 +14,18 @@ void draw()
 
   int i = 100; // size of tiles
 
-  clicks();
-
   for (int x = 0; x < width; x += i)
   {
     for (int y = 0; y < height; y += i)
     {
       fill(random(100, 200), random(100, 200), random(100, 200));
       rect(x, y, 100, 100);
-    } // end fpr
+    } // end for
   } // end for
+  
+  noFill();
+  fill(0);
+  textFont(fab, 50);
+  text("Fabulous", width/2, height/2);
 } // end draw
 
