@@ -6,18 +6,16 @@ void setup()
 
 void draw()
 {
-  smooth();
-  fill(255, 0, 0);
-  stroke(255, 255, 0);
-  ellipse(140, 140, 100, 100);
+  frameRate(2);
   
-  smooth();
-  fill(0, 255, 0);
-  stroke(255, 0, 255);
-  ellipse(70, 70, 100, 100);
+  int i = 100;
   
-  smooth();
-  fill(0, 0, 255);
-  stroke(255, 255, 0);
-  ellipse(210, 210, 100, 100);
+  for(int x = 0; x < width; x += i)
+  {
+    for(int y = 0; y < height; y += i)
+    {
+      fill(random(100,200), random(100,200), random(100,200));
+      rect(x, y, 100, 100);
+    }
+  }
 }
