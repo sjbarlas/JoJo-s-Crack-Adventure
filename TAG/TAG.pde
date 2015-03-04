@@ -1,11 +1,12 @@
-PFont fab;
+PFont jojo;
+//PFont 
 
 void setup()
 {
   size(300, 300);
   background(0);
   
-  fab = loadFont("BuxtonSketch-50.vlw");
+  jojo = loadFont("BuxtonSketch-50.vlw");
 }
 
 void draw()
@@ -27,7 +28,8 @@ void draw()
   
   noFill();
   fill(255, 255, 0);
-  textFont(fab, 50);
-  text("JoJolous", width/4, height/1.9);
+  textFont(jojo, 50);
+  text("JoJolous", width/4.7, height/1.8);
+  
 } // end draw
 
