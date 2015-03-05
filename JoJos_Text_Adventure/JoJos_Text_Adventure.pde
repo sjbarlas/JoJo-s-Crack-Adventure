@@ -1,4 +1,4 @@
-PFont jojo, click;
+PFont jojo, click, in;
 PImage k;
 
 boolean Jo = true;
@@ -11,6 +11,7 @@ void setup()
 
   jojo = loadFont("BuxtonSketch-60.vlw");
   click = loadFont("KristenITC-Regular-20.vlw");
+  in = loadFont("BuxtonSketch-40.vlw");
 
   k = loadImage("jojo.png");
 }
@@ -52,7 +53,7 @@ void draw()
     // Image
     tint(255, 0, 127);
     image(k, 30, 280, 250, 180.5);
-  }
+  } // end Jo
 
   if (Main == true)
   {

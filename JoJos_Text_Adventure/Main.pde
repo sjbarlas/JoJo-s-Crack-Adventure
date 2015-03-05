@@ -2,7 +2,22 @@ void Main()
 {
   Jo = false;
   
-  image(bg, -700, 0);
-  //text("This game is based on Jojo's Bizarre Adventure", 10, 10);
+  noStroke();
+  noFill();
+  background(177, 177, 177);
+  
+  // Instructions
+  fill(255, 0, 127);
+  rect(30, 30, 240, 600, 15, 15, 15, 15);
+  fill(255);
+  textFont(in, 40);
+  text("Instructions", width/5, height/5);
+  
+  // Line
+  stroke(0);
+  strokeWeight(5);
+  line(60, 130, 238, 130);
+  
+  
 }
 
