@@ -6,7 +6,7 @@ boolean Main = false;
 
 void setup()
 {
-  size(300, 300);
+  size(300, 600);
   background(0);
 
   jojo = loadFont("BuxtonSketch-50.vlw");
@@ -33,7 +33,8 @@ void draw()
 
     fill(255, 255, 0);
     textFont(jojo, 50);
-    text("JoJolous", width/4.7, height/1.8);
+    text("JoJo's Text", width/7, height/3.5);
+    text("Adventure", width/4.8, height/2.5);
   }
 
   if (Main == true)
