@@ -1,1 +1,1 @@
-Based on JoJo's Bizarre Adventure
+Based on the series JoJo's Bizarre Adventure
