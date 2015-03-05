@@ -1,5 +1,5 @@
 PFont jojo, click;
-PImage k, bg;
+PImage k;
 
 boolean Jo = true;
 boolean Main = false;
@@ -13,7 +13,6 @@ void setup()
   click = loadFont("KristenITC-Regular-20.vlw");
 
   k = loadImage("jojo.png");
-  bg = loadImage("433561.png");
 }
 
 void draw()
