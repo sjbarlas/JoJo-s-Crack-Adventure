@@ -9,7 +9,7 @@ void setup()
   size(300, 600);
   background(0);
 
-  jojo = loadFont("BuxtonSketch-50.vlw");
+  jojo = loadFont("BuxtonSketch-60.vlw");
 }
 
 void draw()
@@ -31,10 +31,15 @@ void draw()
       } // end for
     } // end for
 
-    fill(255, 255, 0);
-    textFont(jojo, 50);
-    text("JoJo's Text", width/7, height/3.5);
-    text("Adventure", width/4.8, height/2.5);
+    // Title
+    fill(255, 239, 0);
+    textFont(jojo, 60);
+    text("JoJo's Text", width/16, height/3.5);
+    text("Adventure", width/6.8, height/2.5);
+    noFill();
+
+    // Click
+    text("CLICK", width/2, height/1.2);
   }
 
   if (Main == true)
