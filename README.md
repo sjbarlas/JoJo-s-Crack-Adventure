@@ -1,1 +1,1 @@
-Text Adventure Game In Progress
+Based on the series JoJo's Bizarre Adventure
