@@ -1,5 +1,5 @@
 PFont jojo, click;
-PImage k;
+PImage k, bg;
 
 boolean Jo = true;
 boolean Main = false;
@@ -11,13 +11,14 @@ void setup()
 
   jojo = loadFont("BuxtonSketch-60.vlw");
   click = loadFont("KristenITC-Regular-20.vlw");
-  
+
   k = loadImage("jojo.png");
+  bg = loadImage("433561.png");
 }
 
 void draw()
 {
-  frameRate(2);
+  frameRate(3);
 
   if (Jo == true)
   {
@@ -43,11 +44,13 @@ void draw()
 
     // Click
     textFont(click, 20);
-    fill(117, 117, 117);
+    // fill(117, 117, 117); silver
+    fill(255, 0, 0);
     text("CLICK", width/22, height/1.077);
     text("TO", width/2.25, height/1.077);
     text("PLAY", width/1.36, height/1.077);
-    
+
+    // Image
     tint(255, 0, 127);
     image(k, 30, 280, 250, 180.5);
   }
