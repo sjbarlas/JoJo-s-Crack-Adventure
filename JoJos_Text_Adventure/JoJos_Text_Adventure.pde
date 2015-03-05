@@ -7,7 +7,7 @@ boolean Main = false;
 void setup()
 {
   size(300, 600);
-  background(0);
+  background(255);
 
   jojo = loadFont("BuxtonSketch-60.vlw");
   click = loadFont("KristenITC-Regular-20.vlw");
@@ -43,12 +43,12 @@ void draw()
 
     // Click
     textFont(click, 20);
-    fill(204, 255, 0);
+    fill(117, 117, 117);
     text("CLICK", width/22, height/1.077);
     text("TO", width/2.25, height/1.077);
     text("PLAY", width/1.36, height/1.077);
     
-    tint(192, 192, 192);
+    tint(255, 0, 127);
     image(k, 30, 280, 250, 180.5);
   }
 
