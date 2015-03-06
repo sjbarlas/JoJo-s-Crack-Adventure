@@ -20,5 +20,10 @@ void Ins()
   
   textFont(click, 20);
   fill( 0, 191, 255);
-  text("Press SPACEBAR to play", width/6, height/3); 
+  text("Press ENTER to play", width/6, height/3); 
+  
+  if(key == 'j' || key == 'J')
+  {
+    Game = true;
+  }
 }

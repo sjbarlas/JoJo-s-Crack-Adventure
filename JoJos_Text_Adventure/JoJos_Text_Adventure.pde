@@ -1,8 +1,10 @@
 PFont jojo, click, in, in2;
 PImage k;
 
+// Screens
 boolean Jo = true;
 boolean Ins = false;
+boolean Game = false;
 
 void setup()
 {
@@ -13,7 +15,7 @@ void setup()
   click = loadFont("KristenITC-Regular-20.vlw");
   in = loadFont("BuxtonSketch-40.vlw");
   in2 = loadFont("KristenITC-Regular-17.vlw");
-  
+
   k = loadImage("jojo.png");
 }
 
@@ -56,9 +58,16 @@ void draw()
     image(k, 30, 280, 250, 180.5);
   } // end Jo
 
+  // NB!
   if (Ins == true)
   {
     Ins();
+  }
+  
+  // NB!
+  if( Game == true)
+  {
+    Game();
   }
 } // end draw
 
