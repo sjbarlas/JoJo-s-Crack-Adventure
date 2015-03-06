@@ -63,9 +63,9 @@ void draw()
   {
     Ins();
   }
-  
+
   // NB!
-  if( Game == true)
+  if ( Game == true)
   {
     Game();
   }
@@ -75,4 +75,3 @@ void mouseClicked()
 {
   Ins = true;
 }
-

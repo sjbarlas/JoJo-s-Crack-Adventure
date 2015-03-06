@@ -17,12 +17,12 @@ void Ins()
   stroke(0);
   strokeWeight(5);
   line(60, 130, 238, 130);
-  
+
   textFont(click, 20);
   fill( 0, 191, 255);
-  text("Press ENTER to play", width/6, height/3); 
-  
-  if(key == 'j' || key == 'J')
+  text("Press J to play", width/6, height/3); 
+
+  if (key == 'j' || key == 'J')
   {
     Game = true;
   }
