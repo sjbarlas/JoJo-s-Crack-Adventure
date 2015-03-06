@@ -18,6 +18,10 @@ void Main()
   strokeWeight(5);
   line(60, 130, 238, 130);
   
+  textFont(click, 20);
+  fill( 0, 191, 255);
+  text("This is what you have to do", width/6, height/3);
+  
   
 }
 

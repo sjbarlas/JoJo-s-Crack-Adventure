@@ -1,5 +1,5 @@
-PFont jojo, click, in;
-PImage k; // Sound effect
+PFont jojo, click, in, in2;
+PImage k;
 
 boolean Jo = true;
 boolean Main = false;
@@ -12,7 +12,8 @@ void setup()
   jojo = loadFont("BuxtonSketch-60.vlw");
   click = loadFont("KristenITC-Regular-20.vlw");
   in = loadFont("BuxtonSketch-40.vlw");
-
+  in2 = loadFont("KristenITC-Regular-17.vlw");
+  
   k = loadImage("jojo.png");
 }
 
