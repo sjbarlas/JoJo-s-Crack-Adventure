@@ -1,4 +1,4 @@
-void Main()
+void Ins()
 {
   Jo = false;
 
@@ -20,8 +20,5 @@ void Main()
   
   textFont(click, 20);
   fill( 0, 191, 255);
-  text("This is what you have to do", width/6, height/3);
-  
-  
+  text("Press SPACEBAR to play", width/6, height/3); 
 }
-

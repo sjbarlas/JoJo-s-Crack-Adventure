@@ -2,7 +2,7 @@ PFont jojo, click, in, in2;
 PImage k;
 
 boolean Jo = true;
-boolean Main = false;
+boolean Ins = false;
 
 void setup()
 {
@@ -56,14 +56,14 @@ void draw()
     image(k, 30, 280, 250, 180.5);
   } // end Jo
 
-  if (Main == true)
+  if (Ins == true)
   {
-    Main();
+    Ins();
   }
 } // end draw
 
 void mouseClicked()
 {
-  Main = true;
+  Ins = true;
 }
 
