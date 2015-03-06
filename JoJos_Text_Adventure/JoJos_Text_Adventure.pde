@@ -1,5 +1,5 @@
 PFont jojo, click, in;
-PImage k;
+PImage k; // Sound effect
 
 boolean Jo = true;
 boolean Main = false;
