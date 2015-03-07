@@ -1,6 +1,8 @@
-PFont jojo, click, in, in2;
+PFont jojo, click, in, in2, Q;
 PImage k;
 
+String[] fontList = PFont.list();
+println(fontList);
 // Screens
 boolean Jo = true;
 boolean Ins = false;
@@ -15,6 +17,7 @@ void setup()
   click = loadFont("KristenITC-Regular-20.vlw");
   in = loadFont("BuxtonSketch-40.vlw");
   in2 = loadFont("KristenITC-Regular-17.vlw");
+  Q = createFont("Quicksand-Bold.ttf", 20);
 
   k = loadImage("jojo.png");
 }
