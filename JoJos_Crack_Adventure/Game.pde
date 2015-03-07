@@ -4,7 +4,7 @@ void Game()
   background(0);
   
   textFont(Q);
-  text("MWAHAHAHA", 10, 10);
+  text("MWAHAHAHA", 20, 20);
   
   
 }

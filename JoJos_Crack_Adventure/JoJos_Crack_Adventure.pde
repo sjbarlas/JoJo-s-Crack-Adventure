@@ -15,7 +15,7 @@ void setup()
   click = loadFont("KristenITC-Regular-20.vlw");
   in = loadFont("BuxtonSketch-40.vlw");
   in2 = loadFont("KristenITC-Regular-17.vlw");
-  Q = createFont("Quicksand-Bold", 20);
+  Q = createFont("JollyLodger-Regular.ttf", 20);
 
   k = loadImage("jojo.png");
 }
