@@ -66,7 +66,7 @@ void draw()
   }
 
   // NB!
-  if ( Game == true)
+  if (Game == true)
   {
     Game();
   }
