@@ -1,4 +1,4 @@
-PFont jojo, click, in, in2, D;
+PFont jojo, click, in, in2, Dio;
 PImage k;
 
 // Screens
@@ -15,7 +15,7 @@ void setup()
   click = loadFont("KristenITC-Regular-20.vlw");
   in = loadFont("BuxtonSketch-40.vlw");
   in2 = loadFont("KristenITC-Regular-17.vlw");
-  D = createFont("JollyLodger-Regular.ttf", 50);
+  Dio = createFont("JollyLodger-Regular.ttf", 50);
 
   k = loadImage("jojo.png");
 }
