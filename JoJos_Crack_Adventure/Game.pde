@@ -3,7 +3,7 @@ void Game()
   Ins = false;
   background(0);
   
-  textFont(Q, 20);
+  textFont(Q);
   text("MWAHAHAHA", 10, 10);
   
   

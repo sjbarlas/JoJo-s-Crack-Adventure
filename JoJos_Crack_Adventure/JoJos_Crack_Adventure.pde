@@ -1,8 +1,6 @@
 PFont jojo, click, in, in2, Q;
 PImage k;
 
-String[] fontList = PFont.list();
-println(fontList);
 // Screens
 boolean Jo = true;
 boolean Ins = false;
@@ -17,7 +15,7 @@ void setup()
   click = loadFont("KristenITC-Regular-20.vlw");
   in = loadFont("BuxtonSketch-40.vlw");
   in2 = loadFont("KristenITC-Regular-17.vlw");
-  Q = createFont("Quicksand-Bold.ttf", 20);
+  Q = createFont("Quicksand-Bold", 20);
 
   k = loadImage("jojo.png");
 }
@@ -44,7 +42,7 @@ void draw()
     // Title
     fill(255, 239, 0);
     textFont(jojo, 60);
-    text("JoJo's Text", width/16, height/3.5);
+    text("JoJo's Crack", width/28, height/3.5);
     text("Adventure", width/6.8, height/2.5);
     noFill();
 
@@ -54,7 +52,7 @@ void draw()
     fill(255, 0, 0);
     text("CLICK", width/22, height/1.077);
     text("TO", width/2.25, height/1.077);
-    text("PLAY", width/1.36, height/1.077);
+    text("START", width/1.41, height/1.077);
 
     // Image
     tint(255, 0, 127);
