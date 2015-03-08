@@ -19,8 +19,9 @@ void Ins()
   line(60, 130, 238, 130);
 
   textFont(click, 20);
-  fill( 0, 191, 255);
-  text("Press J to play", width/6, height/3);
+  fill(0, 191, 255);
+  
+  text("Press J to play", 78, 580);
 
   if (key == 'j' || key == 'J')
   {
