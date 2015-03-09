@@ -21,14 +21,17 @@ void insFab()
   textFont(click, 17);
   fill(0, 191, 255);
   
-  text("This is a text/visual game.", 45, 200);
-  text("You will need to:", 45, 220);
-  text("1. CLICK to change", 45, 240);
-  text("screens", 66, 260);
-  text("2. Press different keys", 45, 280);
-  text("throughout the game", 66, 300);
-  text("to select/progress", 66, 320);
-  text("3. Have fun ~", 45, 340);
+  text("This is a text/visual game", 45, 200);
+  text("based on Part 2 of JoJo's", 45, 220); 
+  text("Bizarre Adventure: Battle", 45, 240);
+  text("Tendency.", 110, 260);
+  text("In this game you will:", 45, 300);
+  text("1. CLICK to change", 45, 320);
+  text("screens", 66, 340);
+  text("2. Press different keys", 45, 360);
+  text("throughout the game", 66, 380);
+  text("to select/progress", 66, 400);
+  text("3. Have fun ~", 45, 420);
   
   textFont(click, 20);
   text("Press J to play", 78, 580);
