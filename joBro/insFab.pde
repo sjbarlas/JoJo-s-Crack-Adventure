@@ -18,16 +18,19 @@ void insFab()
   strokeWeight(5);
   line(60, 130, 238, 130);
 
-  textFont(click, 20);
+  textFont(click, 17);
   fill(0, 191, 255);
   
-  text("This is a text/visual", 45, 200);
-  text("game. You will need to:", 45, 220);
+  text("This is a text/visual game.", 45, 200);
+  text("You will need to:", 45, 220);
   text("1. CLICK to change", 45, 240);
   text("screens", 66, 260);
   text("2. Press different keys", 45, 280);
-  text("throughout to change", 66, 300);
+  text("throughout the game", 66, 300);
+  text("to select/progress", 66, 320);
+  text("3. Have fun ~", 45, 340);
   
+  textFont(click, 20);
   text("Press J to play", 78, 580);
 
   if (key == 'j' || key == 'J')
