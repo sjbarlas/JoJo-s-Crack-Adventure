@@ -1,4 +1,4 @@
-void Game()
+void gameStart()
 {
   Ins = false;
   background(0);

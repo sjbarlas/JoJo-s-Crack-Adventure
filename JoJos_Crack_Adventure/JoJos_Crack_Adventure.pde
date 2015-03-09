@@ -4,7 +4,7 @@ PImage k;
 // Screens
 boolean Jo = true;
 boolean Ins = false;
-boolean Game = false;
+boolean gameStart = false;
 
 void setup()
 {
@@ -66,9 +66,9 @@ void draw()
   }
 
   // NB!
-  if (Game == true)
+  if (gameStart == true)
   {
-    Game();
+    gameStart();
   }
 } // end draw
 

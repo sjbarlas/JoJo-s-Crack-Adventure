@@ -25,7 +25,7 @@ void Ins()
 
   if (key == 'j' || key == 'J')
   {
-    Game = true;
+    gameStart = true;
   }
 }
 
