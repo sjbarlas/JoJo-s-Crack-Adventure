@@ -8,6 +8,8 @@ boolean gameStart = false;
 
 void setup()
 {
+  frame.setTitle("Jojo's Crack Adventure");
+  
   size(300, 600);
   background(255);
 
