@@ -1,4 +1,4 @@
-PFont jojo, click, in, in2, Dio;
+PFont title, click, in, in2, Dio;
 PImage k;
 
 // Screens
@@ -13,7 +13,7 @@ void setup()
   size(300, 600);
   background(255);
 
-  jojo = loadFont("BuxtonSketch-60.vlw");
+  title = loadFont("BuxtonSketch-60.vlw");
   click = loadFont("KristenITC-Regular-20.vlw");
   in = loadFont("BuxtonSketch-40.vlw");
   in2 = loadFont("KristenITC-Regular-17.vlw");
@@ -43,7 +43,7 @@ void draw()
 
     // Title
     fill(255, 239, 0);
-    textFont(jojo, 60);
+    textFont(title, 60);
     text("JoJo's Crack", width/28, height/3.5);
     text("Adventure", width/6.8, height/2.5);
     noFill();
