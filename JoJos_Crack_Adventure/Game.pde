@@ -1,6 +1,6 @@
 void gameStart()
 {
-  Ins = false;
+  insFab = false;
   background(0);
 
   textFont(Dio);

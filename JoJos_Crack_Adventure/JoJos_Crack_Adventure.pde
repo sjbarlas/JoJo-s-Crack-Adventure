@@ -2,8 +2,8 @@ PFont jojo, click, in, in2, Dio;
 PImage k;
 
 // Screens
-boolean Jo = true;
-boolean Ins = false;
+boolean joBro = true;
+boolean insFab = false;
 boolean gameStart = false;
 
 void setup()
@@ -24,7 +24,7 @@ void draw()
 {
   frameRate(3);
 
-  if (Jo == true)
+  if (joBro == true)
   {
     int i = 100; // size of tiles
 
@@ -57,12 +57,12 @@ void draw()
     // Image
     tint(255, 0, 127);
     image(k, 30, 280, 250, 180.5);
-  } // end Jo
+  } // end joBro
 
   // NB!
-  if (Ins == true)
+  if (insFab == true)
   {
-    Ins();
+    insFab();
   }
 
   // NB!
@@ -74,6 +74,6 @@ void draw()
 
 void mouseClicked()
 {
-  Ins = true;
+  insFab = true;
 }
 
