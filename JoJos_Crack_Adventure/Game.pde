@@ -9,5 +9,6 @@ void Game()
   text("THIS WILL SOON", 40, 160);
   text("COME TO AN", 50, 200);
   text("END", 60, 240);
+  text("TESTING", 70, 400);
 }
 
