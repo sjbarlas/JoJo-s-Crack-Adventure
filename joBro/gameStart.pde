@@ -13,7 +13,6 @@ void gameStart()
   //image(nxt, 100, 200, 64, 64);
   //image(arrow, 150, 530, 125, 60.625);
   image(ar, 150, 530, 150, 114.25);
-  noTint();
+  //noTint();
   //image(dio, -300, -10);
 }
-
