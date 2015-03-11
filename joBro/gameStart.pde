@@ -4,11 +4,14 @@ void gameStart()
   background(0);
 
   textFont(Dio);
-  text("MWAHAHAHA", 20, 80);
-  text("JOJO", 30, 120);
-  text("THIS WILL SOON", 40, 160);
-  text("COME TO AN", 50, 200);
-  text("END", 60, 240);
-  text("TESTING", 70, 400);
+  text("SINCE", 20, 80);
+  text("THE", 30, 120);
+  text("ANCIENT", 40, 160);
+  text("TIMES", 50, 200);
+  
+  text("THERE", 60, 280);
+  text("EXISTED", 70, 320);
+  text("A", 80, 360);
+  text("MASK", 90, 400);
 }
 
