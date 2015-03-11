@@ -1,5 +1,5 @@
 PFont title, click, in, in2, Dio;
-PImage k, nxt, arrow, dio;
+PImage k, nxt, arrow, dio, ar;
 
 // Screens
 boolean joBro = true;
@@ -23,6 +23,7 @@ void setup()
   nxt = loadImage("nxt.png");
   arrow = loadImage("arrow.png");
   dio = loadImage("dio.png");
+  ar = loadImage("ar.png");
 }
 
 void draw()
