@@ -7,3 +7,4 @@ Text Adventure Game
 4. Interactions
 5. Mini Games
 6. Plot
+7. ...
