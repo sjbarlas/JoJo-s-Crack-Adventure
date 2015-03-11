@@ -1,5 +1,5 @@
 PFont title, click, in, in2, Dio;
-PImage k;
+PImage k, nxt, arrow, dio;
 
 // Screens
 boolean joBro = true;
@@ -20,6 +20,9 @@ void setup()
   Dio = createFont("JollyLodger-Regular.ttf", 50);
 
   k = loadImage("jojo.png");
+  nxt = loadImage("nxt.png");
+  arrow = loadImage("arrow.png");
+  dio = loadImage("dio.png");
 }
 
 void draw()
