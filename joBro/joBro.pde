@@ -71,7 +71,6 @@ void draw()
   if (gameStart == true)
   {
     gameStart();
-    gameStart2();
   }
 } // end draw
 
